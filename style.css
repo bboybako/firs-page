@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: 'Raleway' , sans-serif;
+	background: #2434;
+}
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+#nav1 {
+	width: 100%;
+	height: 76px;
+	line-height: 76px;
+	background: #2288;
+}
+
+#nav1 h1 {
+	float: left;
+	font-size: 2.5em;
+	margin-left: 15px;
+}
+
+#nav1 h1 a{
+	text-decoration: none;
+	color: white;
+}
+#nav1 ul {
+	float: right;
+}
+
+#nav1 ul li {
+	display: inline-block;
+	list-style: none;
+}
+#nav1 ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 25px;
+}
+
+#nav1 ul li:hover {
+	background: grey;
+}
+
+#active {
+	background: grey;
+}
+#BET {
+	width: 50%;
+	height: 140px;
+	background: url(image/BET.png) no-repeat;
+}
+
+#nav2 p {
+	float: left;
+	margin-left: 30px;
+}
